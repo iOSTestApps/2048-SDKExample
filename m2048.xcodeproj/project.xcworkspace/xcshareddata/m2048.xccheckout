@@ -10,18 +10,22 @@
 	<string>m2048</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
+		<key>42619467AFF6AA18B133FF3F51606403E514B141</key>
+		<string>github.com:BuddyBuild/BuddyBuildSDK.git</string>
 		<key>6C29944B3854DE4B2B51F0E5621256D4BB50671E</key>
-		<string>https://github.com/iOSTestApps/2048.git</string>
+		<string>github.com:iOSTestApps/2048.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>m2048.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
+		<key>42619467AFF6AA18B133FF3F51606403E514B141</key>
+		<string>../../../BuddyBuildSDK</string>
 		<key>6C29944B3854DE4B2B51F0E5621256D4BB50671E</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/iOSTestApps/2048.git</string>
+	<string>github.com:iOSTestApps/2048.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
@@ -35,6 +39,14 @@
 			<string>6C29944B3854DE4B2B51F0E5621256D4BB50671E</string>
 			<key>IDESourceControlWCCName</key>
 			<string>2048</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>42619467AFF6AA18B133FF3F51606403E514B141</string>
+			<key>IDESourceControlWCCName</key>
+			<string>BuddyBuildSDK</string>
 		</dict>
 	</array>
 </dict>

@@ -34,6 +34,9 @@
 		24C4517018DFF10B0001FCFD /* M2ScoreView.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C4516F18DFF10B0001FCFD /* M2ScoreView.m */; };
 		24C4517318E140AE0001FCFD /* M2SettingsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C4517218E140AE0001FCFD /* M2SettingsDetailViewController.m */; };
 		24C4518118E265390001FCFD /* M2Overlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C4518018E265390001FCFD /* M2Overlay.m */; };
+		8375D9F41B1D62E300EC91FC /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8375D9F31B1D62E300EC91FC /* AssetsLibrary.framework */; };
+		83CCE0121B184B3800AA087E /* BuddyBuildSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83CCE0111B184B3800AA087E /* BuddyBuildSDK.framework */; };
+		83E685A71B1D7F49007ADCDD /* BuddyBuildSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83E685A61B1D7F49007ADCDD /* BuddyBuildSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +47,27 @@
 			remoteGlobalIDString = 2443DC5118D662CA00C920C1;
 			remoteInfo = m2048;
 		};
+		83EBD1381B42C27A007174E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2443DC4A18D662CA00C920C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83EBD1341B42C25A007174E0;
+			remoteInfo = BuddyBuildSDKBuild;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		83ACD5511B1D5E7F00858078 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		2443DC5218D662CA00C920C1 /* m2048.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = m2048.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -92,6 +115,56 @@
 		24C4517218E140AE0001FCFD /* M2SettingsDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M2SettingsDetailViewController.m; sourceTree = "<group>"; };
 		24C4517F18E265390001FCFD /* M2Overlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M2Overlay.h; sourceTree = "<group>"; };
 		24C4518018E265390001FCFD /* M2Overlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M2Overlay.m; sourceTree = "<group>"; };
+		8375D9F31B1D62E300EC91FC /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		839AB32D1B46D2C900340870 /* BBAlertView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BBAlertView.h; path = ../../BuddyBuildSDK/BuddyBuildSDK/Private/BBAlertView.h; sourceTree = "<group>"; };
+		839AB32E1B46D2C900340870 /* BBAlertView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = BBAlertView.m; path = ../../BuddyBuildSDK/BuddyBuildSDK/Private/BBAlertView.m; sourceTree = "<group>"; };
+		839AB32F1B46D2C900340870 /* BBAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BBAPI.h; path = ../../BuddyBuildSDK/BuddyBuildSDK/Private/BBAPI.h; sourceTree = "<group>"; };
+		839AB3301B46D2C900340870 /* BBAPI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = BBAPI.m; path = ../../BuddyBuildSDK/BuddyBuildSDK/Private/BBAPI.m; sourceTree = "<group>"; };
+		839AB3311B46D2C900340870 /* BBBarButtonItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BBBarButtonItem.h; path = ../../BuddyBuildSDK/BuddyBuildSDK/Private/BBBarButtonItem.h; sourceTree = "<group>"; };
+		839AB3321B46D2C900340870 /* BBBarButtonItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = BBBarButtonItem.m; path = ../../BuddyBuildSDK/BuddyBuildSDK/Private/BBBarButtonItem.m; sourceTree = "<group>"; };
+		839AB3331B46D2C900340870 /* BBBuildNumber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BBBuildNumber.h; path = ../../BuddyBuildSDK/BuddyBuildSDK/Private/BBBuildNumber.h; sourceTree = "<group>"; };
+		839AB3341B46D2C900340870 /* BBBuildNumber.template.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BBBuildNumber.template.h; path = ../../BuddyBuildSDK/BuddyBuildSDK/Private/BBBuildNumber.template.h; sourceTree = "<group>"; };
+		839AB3351B46D2C900340870 /* BBButtonItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BBButtonItem.h; path = ../../BuddyBuildSDK/BuddyBuildSDK/Private/BBButtonItem.h; sourceTree = "<group>"; };
+		839AB3361B46D2C900340870 /* BBButtonItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = BBButtonItem.m; path = ../../BuddyBuildSDK/BuddyBuildSDK/Private/BBButtonItem.m; sourceTree = "<group>"; };
+		839AB3371B46D2C900340870 /* BBDebugViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BBDebugViewController.h; path = ../../BuddyBuildSDK/BuddyBuildSDK/Private/BBDebugViewController.h; sourceTree = "<group>"; };
+		839AB3381B46D2C900340870 /* BBDebugViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = BBDebugViewController.m; path = ../../BuddyBuildSDK/BuddyBuildSDK/Private/BBDebugViewController.m; sourceTree = "<group>"; };
+		839AB3391B46D2C900340870 /* BBDebugViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = BBDebugViewController.xib; path = ../../BuddyBuildSDK/BuddyBuildSDK/Private/BBDebugViewController.xib; sourceTree = "<group>"; };
+		839AB33A1B46D2C900340870 /* BBDrawingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BBDrawingView.h; path = ../../BuddyBuildSDK/BuddyBuildSDK/Private/BBDrawingView.h; sourceTree = "<group>"; };
+		839AB33B1B46D2C900340870 /* BBDrawingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = BBDrawingView.m; path = ../../BuddyBuildSDK/BuddyBuildSDK/Private/BBDrawingView.m; sourceTree = "<group>"; };
+		839AB33C1B46D2C900340870 /* BBFeedbackDialogViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BBFeedbackDialogViewController.h; path = ../../BuddyBuildSDK/BuddyBuildSDK/Private/BBFeedbackDialogViewController.h; sourceTree = "<group>"; };
+		839AB33D1B46D2C900340870 /* BBFeedbackDialogViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = BBFeedbackDialogViewController.m; path = ../../BuddyBuildSDK/BuddyBuildSDK/Private/BBFeedbackDialogViewController.m; sourceTree = "<group>"; };
+		839AB33E1B46D2C900340870 /* BBFeedbackDialogViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = BBFeedbackDialogViewController.xib; path = ../../BuddyBuildSDK/BuddyBuildSDK/Private/BBFeedbackDialogViewController.xib; sourceTree = "<group>"; };
+		839AB33F1B46D2C900340870 /* BBFeedbackViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BBFeedbackViewController.h; path = ../../BuddyBuildSDK/BuddyBuildSDK/Private/BBFeedbackViewController.h; sourceTree = "<group>"; };
+		839AB3401B46D2C900340870 /* BBFeedbackViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = BBFeedbackViewController.m; path = ../../BuddyBuildSDK/BuddyBuildSDK/Private/BBFeedbackViewController.m; sourceTree = "<group>"; };
+		839AB3411B46D2C900340870 /* BBFeedbackViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = BBFeedbackViewController.xib; path = ../../BuddyBuildSDK/BuddyBuildSDK/Private/BBFeedbackViewController.xib; sourceTree = "<group>"; };
+		839AB3421B46D2C900340870 /* BBIdentityToken.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BBIdentityToken.h; path = ../../BuddyBuildSDK/BuddyBuildSDK/Private/BBIdentityToken.h; sourceTree = "<group>"; };
+		839AB3431B46D2C900340870 /* BBIdentityToken.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = BBIdentityToken.m; path = ../../BuddyBuildSDK/BuddyBuildSDK/Private/BBIdentityToken.m; sourceTree = "<group>"; };
+		839AB3441B46D2C900340870 /* BBInternalLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BBInternalLog.h; path = ../../BuddyBuildSDK/BuddyBuildSDK/Private/BBInternalLog.h; sourceTree = "<group>"; };
+		839AB3451B46D2C900340870 /* BBInternalLog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = BBInternalLog.m; path = ../../BuddyBuildSDK/BuddyBuildSDK/Private/BBInternalLog.m; sourceTree = "<group>"; };
+		839AB3461B46D2C900340870 /* BBLayoutDescription.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BBLayoutDescription.h; path = ../../BuddyBuildSDK/BuddyBuildSDK/Private/BBLayoutDescription.h; sourceTree = "<group>"; };
+		839AB3471B46D2C900340870 /* BBLayoutDescription.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = BBLayoutDescription.m; path = ../../BuddyBuildSDK/BuddyBuildSDK/Private/BBLayoutDescription.m; sourceTree = "<group>"; };
+		839AB3481B46D2C900340870 /* BBLogViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BBLogViewController.h; path = ../../BuddyBuildSDK/BuddyBuildSDK/Private/BBLogViewController.h; sourceTree = "<group>"; };
+		839AB3491B46D2C900340870 /* BBLogViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = BBLogViewController.m; path = ../../BuddyBuildSDK/BuddyBuildSDK/Private/BBLogViewController.m; sourceTree = "<group>"; };
+		839AB34A1B46D2C900340870 /* BBLogViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = BBLogViewController.xib; path = ../../BuddyBuildSDK/BuddyBuildSDK/Private/BBLogViewController.xib; sourceTree = "<group>"; };
+		839AB34B1B46D2C900340870 /* BBProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BBProperties.h; path = ../../BuddyBuildSDK/BuddyBuildSDK/Private/BBProperties.h; sourceTree = "<group>"; };
+		839AB34C1B46D2C900340870 /* BBProperties.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = BBProperties.m; path = ../../BuddyBuildSDK/BuddyBuildSDK/Private/BBProperties.m; sourceTree = "<group>"; };
+		839AB34D1B46D2C900340870 /* BBReconstructionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BBReconstructionView.h; path = ../../BuddyBuildSDK/BuddyBuildSDK/Private/BBReconstructionView.h; sourceTree = "<group>"; };
+		839AB34E1B46D2C900340870 /* BBReconstructionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = BBReconstructionView.m; path = ../../BuddyBuildSDK/BuddyBuildSDK/Private/BBReconstructionView.m; sourceTree = "<group>"; };
+		839AB34F1B46D2C900340870 /* BBScreenshotWatcher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BBScreenshotWatcher.h; path = ../../BuddyBuildSDK/BuddyBuildSDK/Private/BBScreenshotWatcher.h; sourceTree = "<group>"; };
+		839AB3501B46D2C900340870 /* BBScreenshotWatcher.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = BBScreenshotWatcher.m; path = ../../BuddyBuildSDK/BuddyBuildSDK/Private/BBScreenshotWatcher.m; sourceTree = "<group>"; };
+		839AB3511B46D2C900340870 /* BBTimerHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BBTimerHelper.h; path = ../../BuddyBuildSDK/BuddyBuildSDK/Private/BBTimerHelper.h; sourceTree = "<group>"; };
+		839AB3521B46D2C900340870 /* BBTimerHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = BBTimerHelper.m; path = ../../BuddyBuildSDK/BuddyBuildSDK/Private/BBTimerHelper.m; sourceTree = "<group>"; };
+		839AB3531B46D2C900340870 /* BBUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BBUtils.h; path = ../../BuddyBuildSDK/BuddyBuildSDK/Private/BBUtils.h; sourceTree = "<group>"; };
+		839AB3541B46D2C900340870 /* BBUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = BBUtils.m; path = ../../BuddyBuildSDK/BuddyBuildSDK/Private/BBUtils.m; sourceTree = "<group>"; };
+		839AB3551B46D2C900340870 /* BBVersionChecker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BBVersionChecker.h; path = ../../BuddyBuildSDK/BuddyBuildSDK/Private/BBVersionChecker.h; sourceTree = "<group>"; };
+		839AB3561B46D2C900340870 /* BBVersionChecker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = BBVersionChecker.m; path = ../../BuddyBuildSDK/BuddyBuildSDK/Private/BBVersionChecker.m; sourceTree = "<group>"; };
+		839AB3571B46D2C900340870 /* BuddyBuildSDK.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = BuddyBuildSDK.m; path = ../../BuddyBuildSDK/BuddyBuildSDK/Private/BuddyBuildSDK.m; sourceTree = "<group>"; };
+		839AB3581B46D2C900340870 /* BuddyBuildSDKImplementation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BuddyBuildSDKImplementation.h; path = ../../BuddyBuildSDK/BuddyBuildSDK/Private/BuddyBuildSDKImplementation.h; sourceTree = "<group>"; };
+		839AB3591B46D2C900340870 /* BuddyBuildSDKImplementation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = BuddyBuildSDKImplementation.m; path = ../../BuddyBuildSDK/BuddyBuildSDK/Private/BuddyBuildSDKImplementation.m; sourceTree = "<group>"; };
+		839AB35A1B46D2C900340870 /* BuddyBuildSDKInternal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BuddyBuildSDKInternal.h; path = ../../BuddyBuildSDK/BuddyBuildSDK/Private/BuddyBuildSDKInternal.h; sourceTree = "<group>"; };
+		839AB35B1B46D2C900340870 /* logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo@2x.png"; path = "../../BuddyBuildSDK/BuddyBuildSDK/Private/logo@2x.png"; sourceTree = "<group>"; };
+		83CCE0111B184B3800AA087E /* BuddyBuildSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BuddyBuildSDK.framework; path = /Users/chris/BB/SDK/2048/BuddyBuildSDK.framework; sourceTree = "<absolute>"; };
+		83E685A61B1D7F49007ADCDD /* BuddyBuildSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BuddyBuildSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +172,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8375D9F41B1D62E300EC91FC /* AssetsLibrary.framework in Frameworks */,
+				83CCE0121B184B3800AA087E /* BuddyBuildSDK.framework in Frameworks */,
+				83E685A71B1D7F49007ADCDD /* BuddyBuildSDK.framework in Frameworks */,
 				2443DC5818D662CA00C920C1 /* CoreGraphics.framework in Frameworks */,
 				2443DC5A18D662CA00C920C1 /* UIKit.framework in Frameworks */,
 				2443DC5C18D662CA00C920C1 /* SpriteKit.framework in Frameworks */,
@@ -141,6 +217,8 @@
 		2443DC5418D662CA00C920C1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				83E685A61B1D7F49007ADCDD /* BuddyBuildSDK.framework */,
+				8375D9F31B1D62E300EC91FC /* AssetsLibrary.framework */,
 				2443DC5518D662CA00C920C1 /* Foundation.framework */,
 				2443DC5718D662CA00C920C1 /* CoreGraphics.framework */,
 				2443DC5918D662CA00C920C1 /* UIKit.framework */,
@@ -153,6 +231,7 @@
 		2443DC5D18D662CA00C920C1 /* m2048 */ = {
 			isa = PBXGroup;
 			children = (
+				839AB2E11B46D13100340870 /* BBSDK (in different project) */,
 				2443DC6618D662CA00C920C1 /* M2AppDelegate.h */,
 				2443DC6718D662CA00C920C1 /* M2AppDelegate.m */,
 				2443DC6918D662CA00C920C1 /* Main.storyboard */,
@@ -266,7 +345,78 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		839AB2E11B46D13100340870 /* BBSDK (in different project) */ = {
+			isa = PBXGroup;
+			children = (
+				839AB32D1B46D2C900340870 /* BBAlertView.h */,
+				839AB32E1B46D2C900340870 /* BBAlertView.m */,
+				839AB32F1B46D2C900340870 /* BBAPI.h */,
+				839AB3301B46D2C900340870 /* BBAPI.m */,
+				839AB3311B46D2C900340870 /* BBBarButtonItem.h */,
+				839AB3321B46D2C900340870 /* BBBarButtonItem.m */,
+				839AB3331B46D2C900340870 /* BBBuildNumber.h */,
+				839AB3341B46D2C900340870 /* BBBuildNumber.template.h */,
+				839AB3351B46D2C900340870 /* BBButtonItem.h */,
+				839AB3361B46D2C900340870 /* BBButtonItem.m */,
+				839AB3371B46D2C900340870 /* BBDebugViewController.h */,
+				839AB3381B46D2C900340870 /* BBDebugViewController.m */,
+				839AB3391B46D2C900340870 /* BBDebugViewController.xib */,
+				839AB33A1B46D2C900340870 /* BBDrawingView.h */,
+				839AB33B1B46D2C900340870 /* BBDrawingView.m */,
+				839AB33C1B46D2C900340870 /* BBFeedbackDialogViewController.h */,
+				839AB33D1B46D2C900340870 /* BBFeedbackDialogViewController.m */,
+				839AB33E1B46D2C900340870 /* BBFeedbackDialogViewController.xib */,
+				839AB33F1B46D2C900340870 /* BBFeedbackViewController.h */,
+				839AB3401B46D2C900340870 /* BBFeedbackViewController.m */,
+				839AB3411B46D2C900340870 /* BBFeedbackViewController.xib */,
+				839AB3421B46D2C900340870 /* BBIdentityToken.h */,
+				839AB3431B46D2C900340870 /* BBIdentityToken.m */,
+				839AB3441B46D2C900340870 /* BBInternalLog.h */,
+				839AB3451B46D2C900340870 /* BBInternalLog.m */,
+				839AB3461B46D2C900340870 /* BBLayoutDescription.h */,
+				839AB3471B46D2C900340870 /* BBLayoutDescription.m */,
+				839AB3481B46D2C900340870 /* BBLogViewController.h */,
+				839AB3491B46D2C900340870 /* BBLogViewController.m */,
+				839AB34A1B46D2C900340870 /* BBLogViewController.xib */,
+				839AB34B1B46D2C900340870 /* BBProperties.h */,
+				839AB34C1B46D2C900340870 /* BBProperties.m */,
+				839AB34D1B46D2C900340870 /* BBReconstructionView.h */,
+				839AB34E1B46D2C900340870 /* BBReconstructionView.m */,
+				839AB34F1B46D2C900340870 /* BBScreenshotWatcher.h */,
+				839AB3501B46D2C900340870 /* BBScreenshotWatcher.m */,
+				839AB3511B46D2C900340870 /* BBTimerHelper.h */,
+				839AB3521B46D2C900340870 /* BBTimerHelper.m */,
+				839AB3531B46D2C900340870 /* BBUtils.h */,
+				839AB3541B46D2C900340870 /* BBUtils.m */,
+				839AB3551B46D2C900340870 /* BBVersionChecker.h */,
+				839AB3561B46D2C900340870 /* BBVersionChecker.m */,
+				839AB3571B46D2C900340870 /* BuddyBuildSDK.m */,
+				839AB3581B46D2C900340870 /* BuddyBuildSDKImplementation.h */,
+				839AB3591B46D2C900340870 /* BuddyBuildSDKImplementation.m */,
+				839AB35A1B46D2C900340870 /* BuddyBuildSDKInternal.h */,
+				839AB35B1B46D2C900340870 /* logo@2x.png */,
+			);
+			name = "BBSDK (in different project)";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		83EBD1341B42C25A007174E0 /* BuddyBuildSDKBuild */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 83EBD1351B42C25B007174E0 /* Build configuration list for PBXLegacyTarget "BuddyBuildSDKBuild" */;
+			buildPhases = (
+			);
+			buildToolPath = "./quick-build.sh";
+			buildWorkingDirectory = ../BuddyBuildSDK;
+			dependencies = (
+			);
+			name = BuddyBuildSDKBuild;
+			passBuildSettingsInEnvironment = 1;
+			productName = BuddyBuildSDKBuild;
+		};
+/* End PBXLegacyTarget section */
 
 /* Begin PBXNativeTarget section */
 		2443DC5118D662CA00C920C1 /* m2048 */ = {
@@ -276,10 +426,12 @@
 				2443DC4E18D662CA00C920C1 /* Sources */,
 				2443DC4F18D662CA00C920C1 /* Frameworks */,
 				2443DC5018D662CA00C920C1 /* Resources */,
+				83ACD5511B1D5E7F00858078 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				83EBD1391B42C27A007174E0 /* PBXTargetDependency */,
 			);
 			name = m2048;
 			productName = m2048;
@@ -320,6 +472,9 @@
 					2443DC7918D662CA00C920C1 = {
 						TestTargetID = 2443DC5118D662CA00C920C1;
 					};
+					83EBD1341B42C25A007174E0 = {
+						CreatedOnToolsVersion = 6.3;
+					};
 				};
 			};
 			buildConfigurationList = 2443DC4D18D662CA00C920C1 /* Build configuration list for PBXProject "m2048" */;
@@ -337,6 +492,7 @@
 			targets = (
 				2443DC5118D662CA00C920C1 /* m2048 */,
 				2443DC7918D662CA00C920C1 /* m2048Tests */,
+				83EBD1341B42C25A007174E0 /* BuddyBuildSDKBuild */,
 			);
 		};
 /* End PBXProject section */
@@ -400,6 +556,11 @@
 			isa = PBXTargetDependency;
 			target = 2443DC5118D662CA00C920C1 /* m2048 */;
 			targetProxy = 2443DC7F18D662CA00C920C1 /* PBXContainerItemProxy */;
+		};
+		83EBD1391B42C27A007174E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83EBD1341B42C25A007174E0 /* BuddyBuildSDKBuild */;
+			targetProxy = 83EBD1381B42C27A007174E0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -506,12 +667,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Doe Pics Hit Inc";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "m2048/m2048-Prefix.pch";
 				INFOPLIST_FILE = "m2048/m2048-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "d5126eac-5bb3-4396-837b-14f8f0b1e7fd";
+				PROVISIONING_PROFILE = "";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
 				WRAPPER_EXTENSION = app;
 			};
@@ -522,12 +688,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Doe Pics Hit Inc";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "m2048/m2048-Prefix.pch";
 				INFOPLIST_FILE = "m2048/m2048-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "d5126eac-5bb3-4396-837b-14f8f0b1e7fd";
+				PROVISIONING_PROFILE = "";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
 				WRAPPER_EXTENSION = app;
 			};
@@ -573,6 +744,46 @@
 			};
 			name = Release;
 		};
+		83EBD1361B42C25B007174E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				DEBUGGING_SYMBOLS = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		83EBD1371B42C25B007174E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -599,6 +810,15 @@
 			buildConfigurations = (
 				2443DC8F18D662CA00C920C1 /* Debug */,
 				2443DC9018D662CA00C920C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83EBD1351B42C25B007174E0 /* Build configuration list for PBXLegacyTarget "BuddyBuildSDKBuild" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83EBD1361B42C25B007174E0 /* Debug */,
+				83EBD1371B42C25B007174E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

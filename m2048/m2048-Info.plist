@@ -34,6 +34,16 @@
 	</array>
 	<key>UIStatusBarHidden</key>
 	<true/>
+	<key>BUDDYBUILD_ENDPOINT</key>
+	<string>https://buddybuild-chris.ngrok.com</string>
+	<key>BUDDYBUILD_ENVIRONMENT</key>
+	<string>local</string>
+	<key>BUDDYBUILD_IDENTITY_TOKEN</key>
+	<string>63662002-a509-64fe-c83d-c7eba20104c5</string>
+	<key>BUDDYBUILD_BUILD_ID</key>
+	<string>55a18678e01dfa189feb17c2</string>
+	<key>BUDDYBUILD_APP_ID</key>
+	<string>55a3faa25a3e93f3183e5031</string>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>

@@ -1,4 +1,4 @@
-//
+ //
 //  M2AppDelegate.m
 //  m2048
 //
@@ -7,11 +7,15 @@
 //
 
 #import "M2AppDelegate.h"
+#import <BuddyBuildSDK/BuddyBuildSDK.h>
+
+//@import BuddyBuildSDK;
 
 @implementation M2AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [BuddyBuildSDK setup:self];
   return YES;
 }
 
